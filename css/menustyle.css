@@ -1,111 +1,230 @@
-body{
-    margin: auto;
-    height: 100%;
-}
-.container{
-    width: auto;
-    height: auto;
-}
+@media screen and (max-width: 768px){
 
-header{
-    border: 1px solid rgba(0,150,136,1);
-    width: auto;
-    height: 100px;
-    text-align: center;
-    background-color: rgba(0,150,136,1);
-    font-family: Calibri;
-}
+    body {
+        margin: auto;
+        height: 100%;
+    }
 
-h1{
-    color: gold;
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 15px;
-}
+    .container {
+        width: auto;
+        height: auto;
+    }
 
-section{
-    height: 600px;
-}
+    header {
+        border: 1px solid rgba(0, 150, 136, 1);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri;
+    }
 
-article{
-    margin-top: 30px;
-}
+    h1 {
+        color: gold;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
 
-aside{
-    background-color: rgba(0,150,136,1);
-    border: 2px solid rgba(0,150,136,1);
-    border-radius: 10px;
-    width: 300px;
-    height: 45px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: Calibri;
-}
+    section {
+        height: 600px;
+    }
 
-.soon{
-    margin-top: 2px;
-    color: gold;
-    font-size: 30px;
-}
+    article {
+        margin-top: 30px;
+    }
 
-footer{
-    border: 2px solid rgba(0,150,136,1);
-    height: 53px;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(0,150,136,1);
-    font-family: Calibri;
-}
+    aside {
+        background-color: rgba(0, 150, 136, 1);
+        border: 2px solid rgba(0, 150, 136, 1);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Calibri;
+    }
 
-.legal-notice{
-    color: gold;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
+    .soon {
+        margin-top: 2px;
+        color: gold;
+        font-size: 30px;
+    }
 
-.contact{
-    color: gold;
-    font-size: 25px;
-    margin-top: 10px;
-    margin-right: 10px;
-}
+    footer {
+        border: 2px solid rgba(0, 150, 136, 1);
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri;
+    }
 
-.storage1{
-    display: flex;
-    justify-content: center;
-}
+    .legal-notice {
+        color: gold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 
-.menu1{
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
-}
+    .contact {
+        color: gold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 
-.menu2{
-    border: 2px solid black;
-    margin-left: 20px;
-    width: 200px;
-    height: 250px;
-}
+    .storage1 {
+        display: flex;
+        justify-content: center;
+    }
 
-.storage2{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+    .menu1 {
+        border: 2px solid black;
+        width: 200px;
+        height: 250px;
+    }
 
-.menu3{
-    border: 2px solid black;
-    width: 200px;
-    height: 250px;
-}
+    .menu2 {
+        border: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
 
-.menu4{
-    border: 2px solid black;
-    margin-left: 20px;
-    width: 200px;
-    height: 250px;
+    .storage2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .menu3 {
+        border: 2px solid black;
+        width: 200px;
+        height: 250px;
+    }
+
+    .menu4 {
+        border: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+}
+@media screen and (min-width: 991px) {
+
+    body {
+        margin: auto;
+        height: 100%;
+    }
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    header {
+        border: 1px solid rgba(0, 150, 136, 1);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri;
+    }
+
+    h1 {
+        color: gold;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+
+    section {
+        height: 600px;
+    }
+
+    article {
+        margin-top: 30px;
+    }
+
+    aside {
+        background-color: rgba(0, 150, 136, 1);
+        border: 2px solid rgba(0, 150, 136, 1);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Calibri;
+    }
+
+    .soon {
+        margin-top: 2px;
+        color: gold;
+        font-size: 30px;
+    }
+
+    footer {
+        border: 2px solid rgba(0, 150, 136, 1);
+        height: 53px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri;
+    }
+
+    .legal-notice {
+        color: gold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .contact {
+        color: gold;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .storage1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu1 {
+        border: 2px solid black;
+        width: 200px;
+        height: 250px;
+    }
+
+    .menu2 {
+        border: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
+
+    .storage2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .menu3 {
+        border: 2px solid black;
+        width: 200px;
+        height: 250px;
+    }
+
+    .menu4 {
+        border: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        height: 250px;
+    }
 }
