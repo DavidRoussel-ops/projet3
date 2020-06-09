@@ -1,4 +1,32 @@
-@media screen and (max-width: 768px){
+@font-face {
+    font-family: 'Kalam';
+    src: url("Kalam/Kalam-Regular");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaushan';
+    src: url("Kauchan/KaushanScript-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Devonshire';
+    src: url("Devon/Devonshire-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source serif';
+    src: url("Source/SourceSerifPro-Regular") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
 
     body {
         margin: auto;
@@ -24,6 +52,7 @@
         font-size: 50px;
         font-weight: bold;
         margin-top: 15px;
+        letter-spacing: -3px;
     }
 
     section {
@@ -38,11 +67,12 @@
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
-        width: 300px;
-        height: 45px;
-        margin-top: 10px;
+        width: 200px;
+        height: 35px;
+        margin-top: 40px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 100px;
         text-align: center;
         font-family: Calibri;
     }
@@ -50,12 +80,15 @@
     .soon {
         margin-top: 2px;
         color: gold;
-        font-size: 30px;
+        font-size: 22px;
     }
 
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
         height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
@@ -64,57 +97,145 @@
 
     .legal-notice {
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-left: 5px;
     }
 
     .contact {
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-right: 10px;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-right: 5px;
     }
 
     .storage1 {
         display: flex;
         justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .menu1 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid rgba(255, 205, 210, 0.5);
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        background-color: rgba(255, 205, 210, 0.5);
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Devonshire";
+        transition: transform 2s;
+    }
+
+    .menu1:hover {
+        transform: rotate(180deg);
+    }
+
+
+    .menu1 > i {
+        background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu1 > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .menu1 > h2 {
+        margin-top: 0px;
+        font-family: 'Kalam';
+        font-style: normal;
     }
 
     .menu2 {
-        border: 2px solid black;
+        border: 1px solid rgba(255, 235, 238, 1);
+        background-color: rgba(255, 235, 238, 0.5);
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Source serif";
+    }
+
+    .menu2 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+
+    .menu2 > h2 {
+        margin-top: 10px;
+        color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
         display: flex;
         justify-content: center;
         margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .menu3 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid white;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Dancing Script OT";
+    }
+
+    .menu3 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu3 > h2 {
+        color: rgba(0, 175, 240, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 10px;
     }
 
     .menu4 {
-        border: 2px solid black;
+        border: 2px solid white;
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: 'Kaushan';
+    }
+
+    .menu4 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+
+    .menu4 > h2 {
+        color: rgba(104, 159, 56, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 0px;
     }
 }
 
-@media (min-width: 769px) and (max-width: 990px){
+@media (min-width: 769px) and (max-width: 990px) {
 
     body {
         margin: auto;
@@ -140,6 +261,7 @@
         font-size: 50px;
         font-weight: bold;
         margin-top: 15px;
+        letter-spacing: -3px;
     }
 
     section {
@@ -154,11 +276,12 @@
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
-        width: 300px;
+        width: 250px;
         height: 45px;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 100px;
         text-align: center;
         font-family: Calibri;
     }
@@ -172,6 +295,9 @@
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
         height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
@@ -198,16 +324,58 @@
     }
 
     .menu1 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid rgba(255, 205, 210, 0.5);
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        background-color: rgba(255, 205, 210, 0.5);
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Devonshire";
+    }
+
+    .menu1 > i {
+        background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu1 > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .menu1 > h2 {
+        margin-top: 0px;
+        font-family: 'Kalam';
+        font-style: normal;
     }
 
     .menu2 {
-        border: 2px solid black;
+        border: 1px solid rgba(255, 235, 238, 1);
+        background-color: rgba(255, 235, 238, 0.5);
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Source serif";
+    }
+
+    .menu2 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+
+    .menu2 > h2 {
+        margin-top: 10px;
+        color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
@@ -217,16 +385,52 @@
     }
 
     .menu3 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid white;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Dancing Script OT";
+    }
+
+    .menu3 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu3 > h2 {
+        color: rgba(0, 175, 240, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 10px;
     }
 
     .menu4 {
-        border: 2px solid black;
+        border: 2px solid white;
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: 'Kaushan';
+    }
+
+    .menu4 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+
+    .menu4 > h2 {
+        color: rgba(104, 159, 56, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 0px;
     }
 }
 
@@ -256,6 +460,7 @@
         font-size: 50px;
         font-weight: bold;
         margin-top: 15px;
+        letter-spacing: -3px;
     }
 
     section {
@@ -270,11 +475,12 @@
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
-        width: 300px;
+        width: 250px;
         height: 45px;
-        margin-top: 10px;
+        margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 100px;
         text-align: center;
         font-family: Calibri;
     }
@@ -288,6 +494,9 @@
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
         height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
@@ -314,16 +523,63 @@
     }
 
     .menu1 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid rgba(255, 205, 210, 0.5);
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        background-color: rgba(255, 205, 210, 0.5);
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Devonshire", serif;
+        transition: transform 2s;
+    }
+
+    .menu1:hover {
+        transform: rotate(180deg);
+    }
+
+    .menu1 > i {
+        background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 25px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu1 > p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .menu1 > h2 {
+        margin-top: 0;
+        font-family: 'Kalam', serif;
+        font-style: normal;
     }
 
     .menu2 {
-        border: 2px solid black;
+        border: 1px solid rgba(255, 235, 238, 1);
+        background-color: rgba(255, 235, 238, 0.5);
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Source serif";
+    }
+
+    .menu2 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+
+    .menu2 > h2 {
+        margin-top: 10px;
+        color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
@@ -333,15 +589,61 @@
     }
 
     .menu3 {
-        border: 2px solid black;
-        width: 200px;
-        height: 250px;
+        border: 2px solid rgba(224, 224, 224, 0.5);
+        background-color: rgba(224, 224, 224, 0.5);
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: "Dancing Script OT";
+    }
+
+    .menu3 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+
+    .menu3 > h2 {
+        color: rgba(0, 175, 240, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 10px;
     }
 
     .menu4 {
-        border: 2px solid black;
+        border: 2px solid white;
         margin-left: 20px;
-        width: 200px;
-        height: 250px;
+        width: 180px;
+        height: 230px;
+        text-align: center;
+        box-shadow: 0px 0px 5px gray;
+        font-family: 'Kaushan';
+    }
+
+    .menu4 > p {
+        background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 85px;
+        margin-bottom: 0px;
+    }
+
+    .menu4 > h2 {
+        color: rgba(104, 159, 56, 1);
+        font-family: 'Kalam';
+        font-weight: normal;
+        margin-top: 0px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        cursor: pointer;
     }
 }
