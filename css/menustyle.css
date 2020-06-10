@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kalam';
-    src: url("Kalam/Kalam-Regular");
+    src: url("Kalam/Kalam-Regular.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: 'Source serif';
-    src: url("Source/SourceSerifPro-Regular") format("opentype");
+    src: url("Source/SourceSerifPro-Regular.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -44,7 +44,7 @@
         height: 100px;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     h1 {
@@ -69,12 +69,9 @@
         border-radius: 10px;
         width: 200px;
         height: 35px;
-        margin-top: 40px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 100px;
+        margin: 40px auto 100px;
         text-align: center;
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .soon {
@@ -88,11 +85,11 @@
         height: 53px;
         width: 100%;
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .legal-notice {
@@ -118,38 +115,45 @@
 
     .menu1 {
         border: 2px solid rgba(255, 205, 210, 0.5);
-        width: 180px;
+        width: 160px;
         height: 230px;
         text-align: center;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Devonshire";
-        transition: transform 2s;
+        box-shadow: 0 0 5px gray;
+        font-family: "Devonshire", serif;
     }
 
-    .menu1:hover {
-        transform: rotate(180deg);
+    .menu1:hover{
+        opacity: 0.8;
     }
 
+    .zoom{
+        height: 230px;
+    }
 
-    .menu1 > i {
+    .zoom:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom > i {
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 25px;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu1 > p {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 0px;
+    .zoom > p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
     }
 
-    .menu1 > h2 {
-        margin-top: 0px;
-        font-family: 'Kalam';
+    .zoom > h2 {
+        margin-top: 0;
+        font-family: 'Kalam', serif;
         font-style: normal;
     }
 
@@ -157,22 +161,35 @@
         border: 1px solid rgba(255, 235, 238, 1);
         background-color: rgba(255, 235, 238, 0.5);
         margin-left: 20px;
-        width: 180px;
+        width: 160px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Source serif";
+        box-shadow: 0 0 5px gray;
+        font-family: "Source serif", serif;
     }
 
-    .menu2 > p {
+    .menu2:hover{
+        opacity: 0.8;
+    }
+
+    .zoom1{
+        height: 230px;
+    }
+
+    .zoom1:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom1 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 90px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu2 > h2 {
+    .zoom1 > h2 {
         margin-top: 10px;
         color: rgba(211, 84, 0, 1);
     }
@@ -186,25 +203,39 @@
     }
 
     .menu3 {
-        border: 2px solid white;
-        width: 180px;
+        border: 2px solid rgba(224, 224, 224, 0.5);
+        background-color: rgba(224, 224, 224, 0.5);
+        width: 160px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Dancing Script OT";
+        box-shadow: 0 0 5px gray;
+        font-family: "Dancing Script OT", serif;
     }
 
-    .menu3 > p {
+    .menu3:hover{
+        opacity: 0.8;
+    }
+
+    .zoom2{
+        height: 230px;
+    }
+
+    .zoom2:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom2 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu3 > h2 {
+    .zoom2 > h2 {
         color: rgba(0, 175, 240, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
         margin-top: 10px;
     }
@@ -212,26 +243,48 @@
     .menu4 {
         border: 2px solid white;
         margin-left: 20px;
-        width: 180px;
+        width: 160px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: 'Kaushan';
+        box-shadow: 0 0 5px gray;
+        font-family: 'Kaushan', serif;
     }
 
-    .menu4 > p {
+    .menu4:hover{
+        opacity: 0.8;
+    }
+
+    .zoom3{
+        height: 230px;
+    }
+
+    .zoom3:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom3 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 85px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu4 > h2 {
+    .zoom3 > h2 {
         color: rgba(104, 159, 56, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0px;
+        margin-top: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        cursor: pointer;
     }
 }
 
@@ -253,7 +306,7 @@
         height: 100px;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     h1 {
@@ -278,12 +331,9 @@
         border-radius: 10px;
         width: 250px;
         height: 45px;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 100px;
+        margin: 30px auto 100px;
         text-align: center;
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .soon {
@@ -297,11 +347,11 @@
         height: 53px;
         width: 100%;
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .legal-notice {
@@ -329,28 +379,41 @@
         height: 230px;
         text-align: center;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Devonshire";
+        box-shadow: 0 0 5px gray;
+        font-family: "Devonshire", serif;
     }
 
-    .menu1 > i {
+    .menu1:hover{
+        opacity: 0.8;
+    }
+
+    .zoom{
+        height: 230px;
+    }
+
+    .zoom:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom > i {
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 25px;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu1 > p {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 0px;
+    .zoom > p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
     }
 
-    .menu1 > h2 {
-        margin-top: 0px;
-        font-family: 'Kalam';
+    .zoom > h2 {
+        margin-top: 0;
+        font-family: 'Kalam', serif;
         font-style: normal;
     }
 
@@ -361,19 +424,32 @@
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Source serif";
+        box-shadow: 0 0 5px gray;
+        font-family: "Source serif", serif;
     }
 
-    .menu2 > p {
+    .menu2:hover{
+        opacity: 0.8;
+    }
+
+    .zoom1{
+        height: 230px;
+    }
+
+    .zoom1:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom1 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 90px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu2 > h2 {
+    .zoom1 > h2 {
         margin-top: 10px;
         color: rgba(211, 84, 0, 1);
     }
@@ -385,25 +461,39 @@
     }
 
     .menu3 {
-        border: 2px solid white;
+        border: 2px solid rgba(224, 224, 224, 0.5);
+        background-color: rgba(224, 224, 224, 0.5);
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Dancing Script OT";
+        box-shadow: 0 0 5px gray;
+        font-family: "Dancing Script OT", serif;
     }
 
-    .menu3 > p {
+    .menu3:hover{
+        opacity: 0.8;
+    }
+
+    .zoom2{
+        height: 230px;
+    }
+
+    .zoom2:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom2 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu3 > h2 {
+    .zoom2 > h2 {
         color: rgba(0, 175, 240, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
         margin-top: 10px;
     }
@@ -414,23 +504,45 @@
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: 'Kaushan';
+        box-shadow: 0 0 5px gray;
+        font-family: 'Kaushan', serif;
     }
 
-    .menu4 > p {
+    .menu4:hover{
+        opacity: 0.8;
+    }
+
+    .zoom3{
+        height: 230px;
+    }
+
+    .zoom3:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom3 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 85px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu4 > h2 {
+    .zoom3 > h2 {
         color: rgba(104, 159, 56, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0px;
+        margin-top: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: black;
+        cursor: pointer;
     }
 }
 
@@ -452,7 +564,7 @@
         height: 100px;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     h1 {
@@ -477,12 +589,9 @@
         border-radius: 10px;
         width: 250px;
         height: 45px;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 100px;
+        margin: 30px auto 100px;
         text-align: center;
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .soon {
@@ -496,11 +605,11 @@
         height: 53px;
         width: 100%;
         position: fixed;
-        bottom: 0px;
+        bottom: 0;
         display: flex;
         justify-content: space-between;
         background-color: rgba(0, 150, 136, 1);
-        font-family: Calibri;
+        font-family: Calibri, serif;
     }
 
     .legal-notice {
@@ -528,31 +637,39 @@
         height: 230px;
         text-align: center;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0px 0px 5px gray;
+        box-shadow: 0 0 5px gray;
         font-family: "Devonshire", serif;
-        transition: transform 2s;
     }
 
-    .menu1:hover {
-        transform: rotate(180deg);
+    .menu1:hover{
+        opacity: 0.8;
     }
 
-    .menu1 > i {
+    .zoom{
+        height: 230px;
+    }
+
+    .zoom:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom > i {
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 25px;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu1 > p {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-top: 0px;
+    .zoom > p {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
     }
 
-    .menu1 > h2 {
+    .zoom > h2 {
         margin-top: 0;
         font-family: 'Kalam', serif;
         font-style: normal;
@@ -565,19 +682,32 @@
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Source serif";
+        box-shadow: 0 0 5px gray;
+        font-family: "Source serif", serif;
     }
 
-    .menu2 > p {
+    .menu2:hover{
+        opacity: 0.8;
+    }
+
+    .zoom1{
+        height: 230px;
+    }
+
+    .zoom1:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom1 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 90px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu2 > h2 {
+    .zoom1 > h2 {
         margin-top: 10px;
         color: rgba(211, 84, 0, 1);
     }
@@ -594,21 +724,34 @@
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: "Dancing Script OT";
+        box-shadow: 0 0 5px gray;
+        font-family: "Dancing Script OT", serif;
     }
 
-    .menu3 > p {
+    .menu3:hover{
+        opacity: 0.8;
+    }
+
+    .zoom2{
+        height: 230px;
+    }
+
+    .zoom2:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom2 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 80px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu3 > h2 {
+    .zoom2 > h2 {
         color: rgba(0, 175, 240, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
         margin-top: 10px;
     }
@@ -619,23 +762,36 @@
         width: 180px;
         height: 230px;
         text-align: center;
-        box-shadow: 0px 0px 5px gray;
-        font-family: 'Kaushan';
+        box-shadow: 0 0 5px gray;
+        font-family: 'Kaushan', serif;
     }
 
-    .menu4 > p {
+    .menu4:hover{
+        opacity: 0.8;
+    }
+
+    .zoom3{
+        height: 230px;
+    }
+
+    .zoom3:hover{
+        transform: scale(1.15);
+        transition: transform 1.5s;
+    }
+
+    .zoom3 > p {
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin-top: 85px;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
-    .menu4 > h2 {
+    .zoom3 > h2 {
         color: rgba(104, 159, 56, 1);
-        font-family: 'Kalam';
+        font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     a {
