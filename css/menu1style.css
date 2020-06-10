@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Devonshire';
+    src: url("Devon/Devonshire-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Kalam';
+    src: url("Kalam/Kalam-Regular");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    border: 1px solid rgba(0, 150, 136, 1);
+    width: auto;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(0, 150, 136, 1);
+    font-family: Calibri;
+}
+
+h1 {
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    letter-spacing: -3px;
+}
+
+article{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Calibri;
+    font-weight: bold;
+    height: 40px;
+}
+
+article > p {
+    margin-top: 10px;
+}
+
+aside{
+    background-color: rgba(255,205,210 ,0.5);
+    box-shadow: 0px 0px 5px gray;
+    width: 700px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+aside > i{
+    background: -webkit-gradient(linear,left top,right bottom,from(red),to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+aside > h2{
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'Devonshire';
+}
+
+.undertitle{
+    display: flex;
+    width: 550px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.undertitle > h3{
+    font-family: 'Kalam';
+}
+
+.undertitle > img{
+    height: 6px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+ul{
+    list-style-type: none;
+    font-family: 'Kalam';
+}
+
+ul > li{
+    height: 40px;
+}
+
+.entrance{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-course{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dessert{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+.price{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0px;
+}
+
+.end-page{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.end-page > i{
+    background: -webkit-gradient(linear,left top,right bottom,from(red),to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    padding-top: 38px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.end-page > p{
+    font-family: 'Devonshire';
+    font-size: 35px;
+    margin-right: auto;
+}
+
+footer {
+    border: 2px solid rgba(0, 150, 136, 1);
+    height: 53px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 150, 136, 1);
+    font-family: Calibri;
+}
+
+.legal-notice {
+    color: gold;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.contact {
+    color: gold;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-right: 5px;
+}
