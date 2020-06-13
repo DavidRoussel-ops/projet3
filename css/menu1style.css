@@ -324,6 +324,25 @@
         margin-bottom: auto;
     }
 
+    .undertitle1-2 {
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .undertitle1-2 > h3 {
+        font-family: 'Kalam', serif;
+    }
+
+    .undertitle1-2 > img {
+        height: 6px;
+        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
     ul {
         list-style-type: none;
         font-family: 'Kalam', serif;
@@ -514,6 +533,25 @@
     }
 
     .undertitle1 > img {
+        height: 6px;
+        width: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .undertitle1-2 {
+        display: flex;
+        width: 550px;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .undertitle1-2 > h3 {
+        font-family: 'Kalam', serif;
+    }
+
+    .undertitle1-2 > img {
         height: 6px;
         width: 200px;
         margin-top: auto;
