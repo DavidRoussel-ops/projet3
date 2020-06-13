@@ -74,7 +74,7 @@
     .undertitle > img {
         height: 7px;
         width: 90px;
-        margin-top: 68px;
+        margin-top: 45px;
     }
 
     .undertitle1 {
@@ -88,7 +88,7 @@
     .undertitle1 > img {
         height: 7px;
         width: 90px;
-        margin-top: 53px;
+        margin-top: 35px;
     }
 
     .undertitle1-2 {
@@ -101,23 +101,26 @@
 
     .undertitle1-2 > img {
         height: 7px;
-        width: 70px;
-        margin-top: 40px;
+        width: 81px;
+        margin-top: 35px;
     }
 
     .undertitle1-3{
         font-family: 'Source serif', serif;
         color: rgba(211,84,0 ,1);
+        font-size: 15px;
     }
 
     .undertitle2{
         font-family: 'Source serif', serif;
         color: rgba(171,71,188 ,1);
+        font-size: 15px;
     }
 
     .undertitle3{
         font-family: 'Source serif', serif;
         color: rgba(13,71,161 ,1);
+        font-size: 15px;
     }
 
     ul {
