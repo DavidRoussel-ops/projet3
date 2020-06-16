@@ -89,7 +89,7 @@
     .undertitle > img {
         height: 4px;
         width: 90px;
-        margin-top: 30px;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -107,7 +107,7 @@
     .undertitle1 > img {
         height: 4px;
         width: 90px;
-        margin-top: 50px;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -125,7 +125,7 @@
     .undertitle1-2 > img {
         height: 4px;
         width: 81px;
-        margin-top: 50px;
+        margin: auto;
     }
 
     ul {
@@ -310,8 +310,7 @@
     .undertitle > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -329,8 +328,7 @@
     .undertitle1 > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -348,8 +346,7 @@
     .undertitle1-2 > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     ul {
@@ -534,8 +531,7 @@
     .undertitle > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -553,8 +549,7 @@
     .undertitle1 > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -572,8 +567,7 @@
     .undertitle1-2 > img {
         height: 6px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     ul {
