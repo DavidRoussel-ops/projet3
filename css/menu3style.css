@@ -84,10 +84,9 @@
     }
 
     .undertitle > img {
-        height: 10px;
+        height: 7px;
         width: 90px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     ul {
@@ -259,8 +258,7 @@
     .undertitle > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     ul {
@@ -432,8 +430,7 @@
     .undertitle > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     ul {
