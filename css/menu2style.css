@@ -74,7 +74,7 @@
     .undertitle > img {
         height: 7px;
         width: 90px;
-        margin-top: 45px;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -88,7 +88,7 @@
     .undertitle1 > img {
         height: 7px;
         width: 90px;
-        margin-top: 35px;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -102,7 +102,7 @@
     .undertitle1-2 > img {
         height: 7px;
         width: 81px;
-        margin-top: 35px;
+        margin: auto;
     }
 
     .undertitle1-3{
@@ -282,8 +282,7 @@
     .undertitle > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -297,8 +296,7 @@
     .undertitle1 > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -312,8 +310,7 @@
     .undertitle1-2 > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-3{
@@ -490,8 +487,7 @@
     .undertitle > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1 {
@@ -505,8 +501,7 @@
     .undertitle1 > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-2 {
@@ -520,8 +515,7 @@
     .undertitle1-2 > img {
         height: 10px;
         width: 200px;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin: auto;
     }
 
     .undertitle1-3{
