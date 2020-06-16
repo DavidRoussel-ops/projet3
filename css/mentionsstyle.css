@@ -1,0 +1,241 @@
+@media screen and (max-width: 768px){
+
+    body {
+        margin: auto;
+        height: 100%;
+    }
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    header {
+        border: 1px solid rgba(0, 150, 136, 1);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    h1 {
+        color: gold;
+        font-weight: bold;
+        margin-top: 15px;
+        letter-spacing: -3px;
+    }
+
+    article {
+        text-align: center;
+        margin: 50px auto 50px;
+        font-family: Calibri, serif;
+        color: rgba(0, 150, 136, 1);
+    }
+
+    aside {
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    footer {
+        border: 2px solid rgba(0, 150, 136, 1);
+        height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    .legal-notice {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .contact {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: gold;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px){
+
+    body {
+        margin: auto;
+        height: 100%;
+    }
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    header {
+        border: 1px solid rgba(0, 150, 136, 1);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    h1 {
+        color: gold;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 15px;
+        letter-spacing: -3px;
+    }
+
+    article {
+        width: 750px;
+        text-align: center;
+        margin: 50px auto 50px;
+        font-size: 30px;
+        font-family: Calibri, serif;
+        color: rgba(0, 150, 136, 1);
+    }
+
+    aside {
+        width: 700px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    footer {
+        border: 2px solid rgba(0, 150, 136, 1);
+        height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    .legal-notice {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .contact {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: gold;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width: 991px) {
+
+    body {
+        margin: auto;
+        height: 100%;
+    }
+
+    .container {
+        width: auto;
+        height: auto;
+    }
+
+    header {
+        border: 1px solid rgba(0, 150, 136, 1);
+        width: auto;
+        height: 100px;
+        text-align: center;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    h1 {
+        color: gold;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 15px;
+        letter-spacing: -3px;
+    }
+
+    article {
+        width: 750px;
+        text-align: center;
+        margin: 50px auto 50px;
+        font-size: 30px;
+        font-family: Calibri, serif;
+        color: rgba(0, 150, 136, 1);
+    }
+
+    aside {
+        width: 700px;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 150px;
+    }
+
+    footer {
+        border: 2px solid rgba(0, 150, 136, 1);
+        height: 53px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 150, 136, 1);
+        font-family: Calibri, serif;
+    }
+
+    .legal-notice {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-left: 5px;
+    }
+
+    .contact {
+        color: gold;
+        font-size: 20px;
+        margin-top: 13px;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        color: gold;
+        cursor: pointer;
+    }
+}
