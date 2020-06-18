@@ -40,6 +40,30 @@
     100%{-webkit-transform: translate(2px,2px);}
 }
 
+@-webkit-keyframes point {
+    0%{-webkit-transform: scale(1);}
+    25%{-webkit-transform: scale(2);}
+    50%{-webkit-transform: scale(1);}
+    75%{-webkit-transform: scale(1);}
+    100%{-webkit-transform: scale(1);}
+}
+
+@-webkit-keyframes point1 {
+    0%{-webkit-transform: scale(1);}
+    25%{-webkit-transform: scale(1);}
+    50%{-webkit-transform: scale(2);}
+    75%{-webkit-transform: scale(1);}
+    100%{-webkit-transform: scale(1);}
+}
+
+@-webkit-keyframes point2 {
+    0%{-webkit-transform: scale(1);}
+    25%{-webkit-transform: scale(1);}
+    50%{-webkit-transform: scale(1);}
+    75%{-webkit-transform: scale(2);}
+    100%{-webkit-transform: scale(1);}
+}
+
 @media screen and (max-width: 768px) {
 
     body {
@@ -78,6 +102,7 @@
     }
 
     aside {
+        display: flex;
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
@@ -90,8 +115,42 @@
 
     .soon {
         margin-top: 2px;
+        margin-left: 15px;
+        margin-right: 10px;
         color: gold;
         font-size: 22px;
+    }
+
+    .dot{
+        display: inline-block;
+        color: gold;
+        margin-top: 7px;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot1{
+        display: inline-block;
+        color: gold;
+        margin-top: 7px;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point1;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot2{
+        display: inline-block;
+        color: gold;
+        margin-top: 7px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point2;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
     }
 
     footer {
@@ -359,6 +418,7 @@
     }
 
     aside {
+        display: flex;
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
@@ -371,8 +431,39 @@
 
     .soon {
         margin-top: 2px;
+        margin-left: 15px;
+        margin-right: 10px;
         color: gold;
         font-size: 30px;
+    }
+
+    .dot{
+        display: inline-block;
+        color: gold;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot1{
+        display: inline-block;
+        color: gold;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point1;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot2{
+        display: inline-block;
+        color: gold;
+        padding-bottom: 50px;
+        -webkit-animation-name: point2;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
     }
 
     footer {
@@ -636,20 +727,52 @@
     }
 
     aside {
+        display: flex;
         background-color: rgba(0, 150, 136, 1);
         border: 2px solid rgba(0, 150, 136, 1);
         border-radius: 10px;
         width: 250px;
         height: 45px;
-        margin: 80px auto 100px;
+        margin: 30px auto 100px;
         text-align: center;
         font-family: Calibri, serif;
     }
 
     .soon {
         margin-top: 2px;
+        margin-left: 15px;
+        margin-right: 10px;
         color: gold;
         font-size: 30px;
+    }
+
+    .dot{
+        display: inline-block;
+        color: gold;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot1{
+        display: inline-block;
+        color: gold;
+        margin-right: 5px;
+        padding-bottom: 50px;
+        -webkit-animation-name: point1;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
+    }
+
+    .dot2{
+        display: inline-block;
+        color: gold;
+        padding-bottom: 50px;
+        -webkit-animation-name: point2;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-iteration-count: infinite;
     }
 
     footer {
