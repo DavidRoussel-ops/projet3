@@ -372,9 +372,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -681,9 +678,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -817,7 +811,9 @@
 
     .storage1 {
         display: flex;
+        display: -webkit-box;
         justify-content: center;
+        -webkit-justify-content: center;
     }
 
     .menu1 {
@@ -906,6 +902,7 @@
 
     .storage2 {
         display: flex;
+        display: -webkit-box;
         justify-content: center;
         margin-top: 20px;
     }
@@ -990,9 +987,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
