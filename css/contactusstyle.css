@@ -89,7 +89,7 @@
         border: 2px solid black;
     }
 
-    .back:-webkit-any-link {
+    .back{
         color: black;
         cursor: pointer;
     }
@@ -136,9 +136,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -220,7 +217,7 @@
         border: 2px solid black;
     }
 
-    .back:-webkit-any-link {
+    .back{
         color: black;
         cursor: pointer;
     }
@@ -267,9 +264,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -351,7 +345,7 @@
         border: 2px solid black;
     }
 
-    .back:-webkit-any-link {
+    .back {
         color: black;
         cursor: pointer;
     }
@@ -398,9 +392,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
