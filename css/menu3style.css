@@ -197,9 +197,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -383,9 +380,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
@@ -569,9 +563,6 @@
 
     a {
         text-decoration: none;
-    }
-
-    a:-webkit-any-link {
         color: gold;
         cursor: pointer;
     }
