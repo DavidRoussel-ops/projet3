@@ -97,10 +97,6 @@
         height: 600px;
     }
 
-    article {
-        margin-top: 30px;
-    }
-
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
@@ -196,6 +192,7 @@
     .storage1 {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -410,10 +407,6 @@
         height: 600px;
     }
 
-    article {
-        margin-top: 30px;
-    }
-
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
@@ -506,6 +499,7 @@
     .storage1 {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
     }
 
     .menu1 {
@@ -716,10 +710,6 @@
         height: 600px;
     }
 
-    article {
-        margin-top: 30px;
-    }
-
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
@@ -813,6 +803,7 @@
     .storage1 {
         display: flex;
         justify-content: center;
+        margin-top: 30px;
     }
 
     .menu1 {
