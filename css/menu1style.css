@@ -51,16 +51,16 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section{
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
     }
 
-    article > p {
+    section > p {
         margin-top: 10px;
     }
 
@@ -84,7 +84,7 @@
 
     aside > h2{
         margin-top: 0;
-        font-size: 30px;
+        font-size: 50px;
         font-family: 'Devonshire', serif;
     }
 
@@ -283,16 +283,16 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
     }
 
-    article > p {
+    section > p {
         margin-top: 10px;
     }
 
@@ -316,7 +316,7 @@
 
     aside > h2 {
         margin-top: 0;
-        font-size: 30px;
+        font-size: 50px;
         font-family: 'Devonshire', serif;
     }
 
@@ -515,16 +515,16 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
     }
 
-    article > p {
+    section > p {
         margin-top: 10px;
     }
 
@@ -548,7 +548,7 @@
 
     aside > h2 {
         margin-top: 0;
-        font-size: 30px;
+        font-size: 50px;
         font-family: 'Devonshire', serif;
     }
 
