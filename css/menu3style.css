@@ -81,16 +81,37 @@
         margin-right: 50px;
     }
 
-    .undertitle1 {
+    .undertitle1{
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(59, 89, 153, 1) 0%,rgba(59, 89, 153, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(20, 130, 203, 1) 0%,rgba(20, 130, 203, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(0, 175, 240, 1) 0%,rgba(0, 175, 240, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
@@ -260,16 +281,37 @@
         margin-right: auto;
     }
 
-    .undertitle1 {
+    .undertitle1{
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(59, 89, 153, 1) 0%,rgba(59, 89, 153, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(20, 130, 203, 1) 0%,rgba(20, 130, 203, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(0, 175, 240, 1) 0%,rgba(0, 175, 240, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
@@ -439,16 +481,37 @@
         margin-right: auto;
     }
 
-    .undertitle1 {
+    .undertitle1{
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(59, 89, 153, 1) 0%,rgba(59, 89, 153, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(20, 130, 203, 1) 0%,rgba(20, 130, 203, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, rgba(0, 175, 240, 1) 0%,rgba(0, 175, 240, 1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
