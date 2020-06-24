@@ -40,7 +40,7 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         text-align: center;
         margin: 50px auto 50px;
         font-family: Calibri, serif;
@@ -130,7 +130,7 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         width: 750px;
         text-align: center;
         margin: 50px auto 50px;
@@ -145,6 +145,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 150px;
+        font-size: 20px;
     }
 
     footer {
@@ -223,7 +224,7 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         width: 750px;
         text-align: center;
         margin: 50px auto 50px;
@@ -238,6 +239,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 150px;
+        font-size: 20px;
     }
 
     footer {
