@@ -44,17 +44,13 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
-    }
-
-    article > p {
-        margin-top: 10px;
     }
 
     aside{
@@ -263,17 +259,13 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
-    }
-
-    article > p {
-        margin-top: 10px;
     }
 
     aside {
@@ -479,17 +471,13 @@
         letter-spacing: -3px;
     }
 
-    article {
+    section {
         margin-top: 30px;
         text-align: center;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Calibri, serif;
         font-weight: bold;
         height: 40px;
-    }
-
-    article > p {
-        margin-top: 10px;
     }
 
     aside {
