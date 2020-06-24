@@ -42,14 +42,10 @@
     }
 
     section {
-        height: 600px;
-    }
-
-    article {
         width: auto;
         text-align: center;
         margin: 20px 20px 20px 20px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: Calibri, serif;
         color: rgba(0, 150, 136, 1);
     }
@@ -170,14 +166,10 @@
     }
 
     section {
-        height: 600px;
-    }
-
-    article {
         width: auto;
         text-align: center;
         margin: 50px 50px 50px 50px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: Calibri, serif;
         color: rgba(0, 150, 136, 1);
     }
@@ -298,14 +290,10 @@
     }
 
     section {
-        height: 600px;
-    }
-
-    article {
         width: 750px;
         text-align: center;
         margin: 50px auto 50px;
-        font-size: 30px;
+        font-size: 20px;
         font-family: Calibri, serif;
         color: rgba(0, 150, 136, 1);
     }
