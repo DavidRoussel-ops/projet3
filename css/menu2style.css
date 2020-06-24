@@ -117,20 +117,41 @@
 
     .undertitle1-3{
         font-family: 'Source serif', serif;
-        color: rgba(211,84,0 ,1);
         font-size: 15px;
+        color: rgba(211,84,0 ,1);
+        background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2{
         font-family: 'Source serif', serif;
-        color: rgba(171,71,188 ,1);
         font-size: 15px;
+        color: rgba(171,71,188 ,1);
+        background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3{
         font-family: 'Source serif', serif;
-        color: rgba(13,71,161 ,1);
         font-size: 15px;
+        color: rgba(13,71,161 ,1);
+        background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     ul {
@@ -333,16 +354,37 @@
     .undertitle1-3{
         font-family: 'Source serif', serif;
         color: rgba(211,84,0 ,1);
+        background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2{
         font-family: 'Source serif', serif;
         color: rgba(171,71,188 ,1);
+        background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3{
         font-family: 'Source serif', serif;
         color: rgba(13,71,161 ,1);
+        background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     ul {
@@ -545,16 +587,37 @@
     .undertitle1-3{
         font-family: 'Source serif', serif;
         color: rgba(211,84,0 ,1);
+        background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle2{
         font-family: 'Source serif', serif;
         color: rgba(171,71,188 ,1);
+        background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle2:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle3{
         font-family: 'Source serif', serif;
         color: rgba(13,71,161 ,1);
+        background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle3:hover{
+        background-size: 100% 100%;
     }
 
     ul {
