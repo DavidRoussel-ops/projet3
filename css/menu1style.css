@@ -94,6 +94,13 @@
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
@@ -112,6 +119,13 @@
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1 > img {
@@ -130,6 +144,13 @@
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-2 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1-2 > img {
@@ -322,6 +343,13 @@
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
@@ -340,6 +368,13 @@
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1 > img {
@@ -358,6 +393,13 @@
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-2 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1-2 > img {
@@ -550,6 +592,13 @@
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle > img {
@@ -568,6 +617,13 @@
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1 > img {
@@ -586,6 +642,13 @@
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
+        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background-size: 0 100%;
+        transition: background-size .3s;
+    }
+
+    .undertitle1-2 > h3:hover{
+        background-size: 100% 100%;
     }
 
     .undertitle1-2 > img {
