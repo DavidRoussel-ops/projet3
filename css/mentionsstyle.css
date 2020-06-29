@@ -164,9 +164,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-left: 5px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .legal-notice:hover{
@@ -178,9 +178,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-right: 5px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .contact:hover{
@@ -258,9 +258,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-left: 5px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 
     .legal-notice:hover{
@@ -272,9 +272,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-right: 5px;
+        font-size: 25px;
+        margin-top: 10px;
+        margin-right: 10px;
     }
 
     .contact:hover{
