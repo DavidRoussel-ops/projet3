@@ -77,9 +77,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -87,42 +87,42 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        height: 600px;
+        height: 37.5em;
     }
 
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
-        border: 2px solid rgba(0, 150, 136, 1);
-        border-radius: 10px;
-        width: 200px;
-        height: 35px;
-        margin: 40px auto 100px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        border-radius: 0.62em;
+        width: 17.5em;
+        height: 2.81em;
+        margin: 1.87em auto 6.25em;
         text-align: center;
         font-family: Calibri, serif;
     }
 
     .soon {
-        margin-top: 2px;
-        margin-left: 15px;
-        margin-right: 10px;
+        display: inline-block;
+        margin-top: 0.12em;
+        margin-left: 0.93em;
+        margin-right: 0.62em;
         color: gold;
-        font-size: 22px;
+        font-size: 1.87em;
     }
 
     .dot{
         display: inline-block;
         color: gold;
-        margin-top: 7px;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -131,9 +131,8 @@
     .dot1{
         display: inline-block;
         color: gold;
-        margin-top: 7px;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point1;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -142,16 +141,15 @@
     .dot2{
         display: inline-block;
         color: gold;
-        margin-top: 7px;
-        padding-bottom: 50px;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point2;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        height: 3.31em;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -164,9 +162,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-left: 5px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-left: 0.62em;
     }
 
     .legal-notice:hover{
@@ -178,9 +176,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-right: 5px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-right: 0.62em;
     }
 
     .contact:hover{
@@ -192,19 +190,19 @@
     .storage1 {
         display: flex;
         justify-content: center;
-        margin-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-top: 1.87em;
     }
 
     .menu1 {
-        border: 2px solid rgba(255, 205, 210, 0.5);
-        width: 160px;
-        height: 230px;
+        display: inline-block;
+        border: 0.12em solid rgba(255, 205, 210, 0.5);
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
+        margin-left: auto;
         color: black;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Devonshire", serif;
     }
 
@@ -214,7 +212,7 @@
 
     .zoom{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom:hover{
@@ -226,8 +224,8 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 25px;
-        margin-top: 80px;
+        font-size: 1.56em;
+        margin-top: 3em;
         margin-bottom: 0;
     }
 
@@ -238,19 +236,20 @@
     }
 
     .zoom > h2 {
-        margin-top: 0;
+        margin-top: 0.3em;
         font-family: 'Kalam', serif;
         font-style: normal;
     }
 
     .menu2 {
-        border: 1px solid rgba(255, 235, 238, 1);
+        display: inline-block;
+        border: 0.06em solid rgba(255, 235, 238, 1);
         background-color: rgba(255, 235, 238, 0.5);
-        margin-left: 20px;
-        width: 160px;
-        height: 230px;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Source serif", serif;
     }
 
@@ -260,7 +259,7 @@
 
     .zoom1{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom1:hover{
@@ -272,28 +271,27 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 90px;
+        margin-top: 5.62em;
         margin-bottom: 0;
     }
 
     .zoom1 > h2 {
-        margin-top: 10px;
+        margin-top: 0.3em;
         color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-        padding-left: 10px;
-        padding-right: 10px;
+        margin-top: 1.25em;
     }
 
     .menu3 {
-        border: 2px solid rgba(224, 224, 224, 0.5);
+        display: inline-block;
+        border: 0.12em solid rgba(224, 224, 224, 0.5);
         background-color: rgba(224, 224, 224, 0.5);
-        width: 160px;
-        height: 230px;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: "Dancing Script OT", serif;
@@ -305,7 +303,7 @@
 
     .zoom2{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom2:hover{
@@ -317,7 +315,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 80px;
+        margin-top: 5em;
         margin-bottom: 0;
     }
 
@@ -325,14 +323,15 @@
         color: rgba(0, 175, 240, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 10px;
+        margin-top: 0.6em;
     }
 
     .menu4 {
-        border: 2px solid white;
-        margin-left: 20px;
-        width: 160px;
-        height: 230px;
+        display: inline-block;
+        border: 0.12em solid white;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: 'Kaushan', serif;
@@ -344,7 +343,7 @@
 
     .zoom3{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom3:hover{
@@ -356,7 +355,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 85px;
+        margin-top: 5.31em;
         margin-bottom: 0;
     }
 
@@ -364,7 +363,7 @@
         color: rgba(104, 159, 56, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0;
+        margin-top: 0.3em;
     }
 
     a {
@@ -387,9 +386,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -397,41 +396,42 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        height: 600px;
+        height: 37.5em;
     }
 
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
-        border: 2px solid rgba(0, 150, 136, 1);
-        border-radius: 10px;
-        width: 250px;
-        height: 45px;
-        margin: 30px auto 100px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        border-radius: 0.62em;
+        width: 17.5em;
+        height: 2.81em;
+        margin: 1.87em auto 6.25em;
         text-align: center;
         font-family: Calibri, serif;
     }
 
     .soon {
-        margin-top: 2px;
-        margin-left: 15px;
-        margin-right: 10px;
+        display: inline-block;
+        margin-top: 0.12em;
+        margin-left: 0.93em;
+        margin-right: 0.62em;
         color: gold;
-        font-size: 30px;
+        font-size: 1.87em;
     }
 
     .dot{
         display: inline-block;
         color: gold;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -440,8 +440,8 @@
     .dot1{
         display: inline-block;
         color: gold;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point1;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -450,15 +450,15 @@
     .dot2{
         display: inline-block;
         color: gold;
-        padding-bottom: 50px;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point2;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        height: 3.31em;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -471,9 +471,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-left: 0.62em;
     }
 
     .legal-notice:hover{
@@ -485,9 +485,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-right: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-right: 0.62em;
     }
 
     .contact:hover{
@@ -499,17 +499,19 @@
     .storage1 {
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 1.87em;
     }
 
     .menu1 {
-        border: 2px solid rgba(255, 205, 210, 0.5);
-        width: 180px;
-        height: 230px;
+        display: inline-block;
+        border: 0.12em solid rgba(255, 205, 210, 0.5);
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
+        margin-left: auto;
         color: black;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Devonshire", serif;
     }
 
@@ -519,7 +521,7 @@
 
     .zoom{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom:hover{
@@ -531,8 +533,8 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 25px;
-        margin-top: 80px;
+        font-size: 1.56em;
+        margin-top: 3em;
         margin-bottom: 0;
     }
 
@@ -543,19 +545,20 @@
     }
 
     .zoom > h2 {
-        margin-top: 0;
+        margin-top: 0.3em;
         font-family: 'Kalam', serif;
         font-style: normal;
     }
 
     .menu2 {
-        border: 1px solid rgba(255, 235, 238, 1);
+        display: inline-block;
+        border: 0.06em solid rgba(255, 235, 238, 1);
         background-color: rgba(255, 235, 238, 0.5);
-        margin-left: 20px;
-        width: 180px;
-        height: 230px;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Source serif", serif;
     }
 
@@ -565,7 +568,7 @@
 
     .zoom1{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom1:hover{
@@ -577,26 +580,27 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 90px;
+        margin-top: 5.62em;
         margin-bottom: 0;
     }
 
     .zoom1 > h2 {
-        margin-top: 10px;
+        margin-top: 0.3em;
         color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .menu3 {
-        border: 2px solid rgba(224, 224, 224, 0.5);
+        display: inline-block;
+        border: 0.12em solid rgba(224, 224, 224, 0.5);
         background-color: rgba(224, 224, 224, 0.5);
-        width: 180px;
-        height: 230px;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: "Dancing Script OT", serif;
@@ -608,7 +612,7 @@
 
     .zoom2{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom2:hover{
@@ -620,7 +624,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 80px;
+        margin-top: 5em;
         margin-bottom: 0;
     }
 
@@ -628,14 +632,15 @@
         color: rgba(0, 175, 240, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 10px;
+        margin-top: 0.6em;
     }
 
     .menu4 {
-        border: 2px solid white;
-        margin-left: 20px;
-        width: 180px;
-        height: 230px;
+        display: inline-block;
+        border: 0.12em solid white;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: 'Kaushan', serif;
@@ -647,7 +652,7 @@
 
     .zoom3{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom3:hover{
@@ -659,7 +664,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 85px;
+        margin-top: 5.31em;
         margin-bottom: 0;
     }
 
@@ -667,7 +672,7 @@
         color: rgba(104, 159, 56, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0;
+        margin-top: 0.3em;
     }
 
     a {
@@ -690,9 +695,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -700,42 +705,42 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        height: 600px;
+        height: 37.5em;
     }
 
     aside {
         display: flex;
         background-color: rgba(0, 150, 136, 1);
-        border: 2px solid rgba(0, 150, 136, 1);
-        border-radius: 10px;
-        width: 250px;
-        height: 45px;
-        margin: 30px auto 100px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        border-radius: 0.62em;
+        width: 17.5em;
+        height: 2.81em;
+        margin: 1.87em auto 6.25em;
         text-align: center;
         font-family: Calibri, serif;
     }
 
     .soon {
         display: inline-block;
-        margin-top: 2px;
-        margin-left: 15px;
-        margin-right: 10px;
+        margin-top: 0.12em;
+        margin-left: 0.93em;
+        margin-right: 0.62em;
         color: gold;
-        font-size: 30px;
+        font-size: 1.87em;
     }
 
     .dot{
         display: inline-block;
         color: gold;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -744,8 +749,8 @@
     .dot1{
         display: inline-block;
         color: gold;
-        margin-right: 5px;
-        padding-bottom: 50px;
+        margin-right: 0.31em;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point1;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
@@ -754,15 +759,15 @@
     .dot2{
         display: inline-block;
         color: gold;
-        padding-bottom: 50px;
+        padding-bottom: 3.12em;
         -webkit-animation-name: point2;
         -webkit-animation-duration: 1s;
         -webkit-animation-iteration-count: infinite;
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.12em solid rgba(0, 150, 136, 1);
+        height: 3.31em;
         width: 100%;
         position: fixed;
         bottom: 0;
@@ -775,9 +780,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-left: 0.62em;
     }
 
     .legal-notice:hover{
@@ -789,9 +794,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-right: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-right: 0.62em;
     }
 
     .contact:hover{
@@ -803,19 +808,19 @@
     .storage1 {
         display: flex;
         justify-content: center;
-        margin-top: 30px;
+        margin-top: 1.87em;
     }
 
     .menu1 {
         display: inline-block;
-        border: 2px solid rgba(255, 205, 210, 0.5);
-        width: 180px;
-        height: 230px;
+        border: 0.12em solid rgba(255, 205, 210, 0.5);
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         margin-left: auto;
         color: black;
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Devonshire", serif;
     }
 
@@ -825,7 +830,7 @@
 
     .zoom{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom:hover{
@@ -837,8 +842,8 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 25px;
-        margin-top: 80px;
+        font-size: 1.56em;
+        margin-top: 3em;
         margin-bottom: 0;
     }
 
@@ -849,20 +854,20 @@
     }
 
     .zoom > h2 {
-        margin-top: 0;
+        margin-top: 0.3em;
         font-family: 'Kalam', serif;
         font-style: normal;
     }
 
     .menu2 {
         display: inline-block;
-        border: 1px solid rgba(255, 235, 238, 1);
+        border: 0.06em solid rgba(255, 235, 238, 1);
         background-color: rgba(255, 235, 238, 0.5);
-        margin-left: 20px;
-        width: 180px;
-        height: 230px;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.31em gray;
         font-family: "Source serif", serif;
     }
 
@@ -872,7 +877,7 @@
 
     .zoom1{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom1:hover{
@@ -884,27 +889,27 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(211, 84, 0, 1)), to(rgba(76, 117, 163, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 90px;
+        margin-top: 5.62em;
         margin-bottom: 0;
     }
 
     .zoom1 > h2 {
-        margin-top: 10px;
+        margin-top: 0.3em;
         color: rgba(211, 84, 0, 1);
     }
 
     .storage2 {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 1.25em;
     }
 
     .menu3 {
         display: inline-block;
-        border: 2px solid rgba(224, 224, 224, 0.5);
+        border: 0.12em solid rgba(224, 224, 224, 0.5);
         background-color: rgba(224, 224, 224, 0.5);
-        width: 180px;
-        height: 230px;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: "Dancing Script OT", serif;
@@ -916,7 +921,7 @@
 
     .zoom2{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom2:hover{
@@ -928,7 +933,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(59, 89, 153, 1)), to(rgba(0, 175, 240, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 80px;
+        margin-top: 5em;
         margin-bottom: 0;
     }
 
@@ -936,15 +941,15 @@
         color: rgba(0, 175, 240, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 10px;
+        margin-top: 0.6em;
     }
 
     .menu4 {
         display: inline-block;
-        border: 2px solid white;
-        margin-left: 20px;
-        width: 180px;
-        height: 230px;
+        border: 0.12em solid white;
+        margin-left: 1.25em;
+        width: 11.25em;
+        height: 14.37em;
         text-align: center;
         box-shadow: 0 0 5px gray;
         font-family: 'Kaushan', serif;
@@ -956,7 +961,7 @@
 
     .zoom3{
         display: inline-block;
-        height: 230px;
+        height: 14.37em;
     }
 
     .zoom3:hover{
@@ -968,7 +973,7 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 85px;
+        margin-top: 5.31em;
         margin-bottom: 0;
     }
 
@@ -976,7 +981,7 @@
         color: rgba(104, 159, 56, 1);
         font-family: 'Kalam', serif;
         font-weight: normal;
-        margin-top: 0;
+        margin-top: 0.3em;
     }
 
     a {
