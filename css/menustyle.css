@@ -111,11 +111,9 @@
 
     .soon {
         display: inline-block;
-        margin-top: 0.12em;
-        margin-left: 0.93em;
-        margin-right: 0.62em;
+        margin: auto 1em auto 2.5em;
         color: gold;
-        font-size: 1.87em;
+        font-size: 1.4em;
     }
 
     .dot{
@@ -420,11 +418,9 @@
 
     .soon {
         display: inline-block;
-        margin-top: 0.12em;
-        margin-left: 0.93em;
-        margin-right: 0.62em;
+        margin: auto 1em auto 2.5em;
         color: gold;
-        font-size: 1.87em;
+        font-size: 1.4em;
     }
 
     .dot{
