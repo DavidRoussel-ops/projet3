@@ -86,6 +86,8 @@
         background: linear-gradient(to top, rgba(59, 89, 153, 1) 0%,rgba(59, 89, 153, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
     }
 
     .undertitle1:hover{
