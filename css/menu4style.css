@@ -35,9 +35,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.063em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -45,28 +45,28 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        margin-top: 30px;
+        margin-top: 1.875em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.938em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 10px;
+        height: 0.625em;
     }
 
     aside {
-        box-shadow: 0 0 5px gray;
+        box-shadow: 0 0 0.313em gray;
         width: auto;
-        margin-bottom: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-bottom: 100px;
+        margin-bottom: 6.25em;
+        margin-left: 0.625em;
+        margin-right: 0.625em;
+        padding-bottom: 6.25em;
         text-align: center;
     }
 
@@ -74,8 +74,8 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 70px;
-        font-size: 60px;
+        padding-top: 1.5em;
+        font-size: 3.75em;
         font-weight: normal;
         font-family: 'Kaushan', serif;
     }
@@ -84,15 +84,17 @@
         display: flex;
         width: auto;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .undertitle1{
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: 2em;
+        margin-right: 2em;
     }
 
     .undertitle1:hover{
@@ -101,9 +103,11 @@
 
     .undertitle2 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: 0.3em;
+        margin-right: 0.3em;
     }
 
     .undertitle2:hover{
@@ -112,9 +116,11 @@
 
     .undertitle3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: -0.1em;
+        margin-right: -0.1em;
     }
 
     .undertitle3:hover{
@@ -122,8 +128,8 @@
     }
 
     .undertitle > img {
-        height: 5px;
-        width: 90px;
+        height: 0.438em;
+        width: 5.625em;
         margin: auto;
     }
 
@@ -133,7 +139,7 @@
     }
 
     ul > li {
-        height: 80px;
+        height: 5em;
     }
 
     .entrance {
@@ -142,9 +148,9 @@
         justify-content: space-between;
         width: auto;
         padding-top: 0;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-bottom: 1.25em;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .main-course {
@@ -152,9 +158,9 @@
         display: flex;
         justify-content: space-between;
         width: auto;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-bottom: 1.25em;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .dessert {
@@ -162,8 +168,8 @@
         display: flex;
         justify-content: space-between;
         width: auto;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .text {
@@ -180,8 +186,8 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.125em solid rgba(0, 150, 136, 1);
+        height: 3.313em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -194,9 +200,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-left: 5px;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-left: 0.313em;
     }
 
     .legal-notice:hover{
@@ -208,9 +214,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-right: 5px;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-right: 0.313em;
     }
 
     .contact:hover{
@@ -235,9 +241,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.063em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -245,28 +251,28 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        margin-top: 30px;
+        margin-top: 1.875em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.938em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 10px;
+        height: 0.625em;
     }
 
     aside {
-        box-shadow: 0 0 5px gray;
-        width: 700px;
-        margin-bottom: 100px;
+        box-shadow: 0 0 0.313em gray;
+        width: 43.75em;
+        margin-bottom: 6.25em;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 100px;
+        padding-bottom: 6.25em;
         text-align: center;
     }
 
@@ -274,15 +280,15 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 70px;
-        font-size: 70px;
+        padding-top: 1.5em;
+        font-size: 4.375em;
         font-weight: normal;
         font-family: 'Kaushan', serif;
     }
 
     .undertitle {
         display: flex;
-        width: 650px;
+        width: 40.625em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -290,9 +296,11 @@
 
     .undertitle1{
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
     }
 
     .undertitle1:hover{
@@ -301,9 +309,11 @@
 
     .undertitle2 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
     .undertitle2:hover{
@@ -312,7 +322,7 @@
 
     .undertitle3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -322,8 +332,8 @@
     }
 
     .undertitle > img {
-        height: 10px;
-        width: 200px;
+        height: 0.625em;
+        width: 10em;
         margin: auto;
     }
 
@@ -333,16 +343,16 @@
     }
 
     ul > li {
-        height: 40px;
+        height: 2.5em;
     }
 
     .entrance {
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.375em;
         padding-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -351,8 +361,8 @@
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
-        margin-bottom: 20px;
+        width: 34.375em;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -361,7 +371,7 @@
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.375em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -380,8 +390,8 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.125em solid rgba(0, 150, 136, 1);
+        height: 3.313em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -394,9 +404,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.563em;
+        margin-top: 0.4em;
+        margin-left: 0.625em;
     }
 
     .legal-notice:hover{
@@ -408,9 +418,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.563em;
+        margin-top: 0.4em;
+        margin-right: 0.625em;
     }
 
     .contact:hover{
@@ -435,9 +445,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.063em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -445,28 +455,28 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        margin-top: 30px;
+        margin-top: 1.875em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.938em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 10px;
+        height: 0.625em;
     }
 
     aside {
-        box-shadow: 0 0 5px gray;
-        width: 700px;
-        margin-bottom: 100px;
+        box-shadow: 0 0 0.313em gray;
+        width: 43.75em;
+        margin-bottom: 6.25em;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 100px;
+        padding-bottom: 6.25em;
         text-align: center;
     }
 
@@ -474,15 +484,15 @@
         background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        padding-top: 70px;
-        font-size: 70px;
+        padding-top: 1.5em;
+        font-size: 4.375em;
         font-weight: normal;
         font-family: 'Kaushan', serif;
     }
 
     .undertitle {
         display: flex;
-        width: 650px;
+        width: 40.625em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -490,7 +500,7 @@
 
     .undertitle1{
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -501,7 +511,7 @@
 
     .undertitle2 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -512,7 +522,7 @@
 
     .undertitle3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -522,8 +532,8 @@
     }
 
     .undertitle > img {
-        height: 10px;
-        width: 200px;
+        height: 0.625em;
+        width: 12.5em;
         margin: auto;
     }
 
@@ -533,16 +543,16 @@
     }
 
     ul > li {
-        height: 40px;
+        height: 2.5em;
     }
 
     .entrance {
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.375em;
         padding-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -551,8 +561,8 @@
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
-        margin-bottom: 20px;
+        width: 34.375em;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -561,7 +571,7 @@
         font-family: 'Kalam', serif;
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.375em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -580,8 +590,8 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        border: 0.125em solid rgba(0, 150, 136, 1);
+        height: 3.313em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -594,9 +604,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.563em;
+        margin-top: 0.4em;
+        margin-left: 0.625em;
     }
 
     .legal-notice:hover{
@@ -608,9 +618,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.563em;
+        margin-top: 0.4em;
+        margin-right: 0.625em;
     }
 
     .contact:hover{
