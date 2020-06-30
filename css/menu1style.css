@@ -35,9 +35,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -45,42 +45,42 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
-    section{
-        margin-top: 30px;
+    section {
+        margin-top: 1.87em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.93em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 40px;
+        height: 2.5em;
     }
 
-    aside{
-        background-color: rgba(255,205,210 ,0.5);
-        box-shadow: 0 0 5px gray;
+    aside {
+        background-color: rgba(255, 205, 210, 0.5);
+        box-shadow: 0 0 0.31em gray;
         width: auto;
-        margin-bottom: 100px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-bottom: 6.25em;
+        margin-left: 0.62em;
+        margin-right: 0.62em;
         text-align: center;
     }
 
-    aside > i{
-        background: -webkit-gradient(linear,left top,right bottom,from(red),to(orange));
+    aside > i {
+        background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 60px;
-        margin-top: 40px;
+        font-size: 3.75em;
+        margin-top: 1em;
     }
 
-    aside > h2{
+    aside > h2 {
         margin-top: 0;
-        font-size: 50px;
+        font-size: 3.12em;
         font-family: 'Devonshire', serif;
     }
 
@@ -88,13 +88,13 @@
         display: flex;
         width: auto;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -104,8 +104,8 @@
     }
 
     .undertitle > img {
-        height: 4px;
-        width: 90px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
@@ -113,13 +113,13 @@
         display: flex;
         width: auto;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -129,8 +129,8 @@
     }
 
     .undertitle1 > img {
-        height: 4px;
-        width: 90px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
@@ -138,13 +138,13 @@
         display: flex;
         width: auto;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -154,8 +154,8 @@
     }
 
     .undertitle1-2 > img {
-        height: 4px;
-        width: 81px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
@@ -165,7 +165,7 @@
     }
 
     ul > li {
-        height: 80px;
+        height: 2.5em;
     }
 
     .entrance {
@@ -173,26 +173,26 @@
         justify-content: space-between;
         width: auto;
         padding-top: 0;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-bottom: 1.25em;
+        margin-left: 0.62em;
+        margin-right: 0.62em;
     }
 
     .main-course {
         display: flex;
         justify-content: space-between;
         width: auto;
-        margin-bottom: 20px;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-bottom: 1.25em;
+        margin-left: 0.62em;
+        margin-right: 0.62em;
     }
 
     .dessert {
         display: flex;
         justify-content: space-between;
         width: auto;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: 0.62em;
+        margin-right: 0.62em;
     }
 
     .text {
@@ -208,7 +208,7 @@
     }
 
     .end-page {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         display: flex;
     }
 
@@ -216,21 +216,21 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
-        padding-top: 38px;
+        font-size: 2.5em;
+        padding-top: 1em;
         margin-left: auto;
-        margin-right: 5px;
+        margin-right: 0.31em;
     }
 
     .end-page > p {
         font-family: 'Devonshire', serif;
-        font-size: 35px;
+        font-size: 2.18em;
         margin-right: auto;
     }
 
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        height: 3.31em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -243,9 +243,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-left: 5px;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-left: 0.313em;
     }
 
     .legal-notice:hover{
@@ -257,9 +257,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 20px;
-        margin-top: 13px;
-        margin-right: 5px;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-right: 0.313em;
     }
 
     .contact:hover{
@@ -284,9 +284,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -294,26 +294,26 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        margin-top: 30px;
+        margin-top: 1.87em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.93em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 40px;
+        height: 2.5em;
     }
 
     aside {
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0 0 5px gray;
-        width: 700px;
-        margin-bottom: 100px;
+        box-shadow: 0 0 0.31em gray;
+        width: 43.75em;
+        margin-bottom: 6.25em;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -323,19 +323,19 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 60px;
-        margin-top: 40px;
+        font-size: 3.75em;
+        margin-top: 1em;
     }
 
     aside > h2 {
         margin-top: 0;
-        font-size: 50px;
+        font-size: 3.12em;
         font-family: 'Devonshire', serif;
     }
 
     .undertitle {
         display: flex;
-        width: 550px;
+        width: 40em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -343,7 +343,7 @@
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -353,14 +353,14 @@
     }
 
     .undertitle > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
     .undertitle1 {
         display: flex;
-        width: 550px;
+        width: 37em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -368,7 +368,7 @@
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -378,14 +378,14 @@
     }
 
     .undertitle1 > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
     .undertitle1-2 {
         display: flex;
-        width: 550px;
+        width: 34.37em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -393,7 +393,7 @@
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -403,8 +403,8 @@
     }
 
     .undertitle1-2 > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 12.5em;
         margin: auto;
     }
 
@@ -414,15 +414,15 @@
     }
 
     ul > li {
-        height: 40px;
+        height: 2.5em;
     }
 
     .entrance {
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34em;
         padding-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -430,8 +430,8 @@
     .main-course {
         display: flex;
         justify-content: space-between;
-        width: 550px;
-        margin-bottom: 20px;
+        width: 34em;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -439,7 +439,7 @@
     .dessert {
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -457,7 +457,7 @@
     }
 
     .end-page {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         display: flex;
     }
 
@@ -465,21 +465,21 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
-        padding-top: 38px;
+        font-size: 2.5em;
+        padding-top: 1em;
         margin-left: auto;
-        margin-right: 5px;
+        margin-right: 0.31em;
     }
 
     .end-page > p {
         font-family: 'Devonshire', serif;
-        font-size: 35px;
+        font-size: 2.18em;
         margin-right: auto;
     }
 
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        height: 3.31em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -492,9 +492,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-left: 0.62em;
     }
 
     .legal-notice:hover{
@@ -506,9 +506,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-right: 0.62em;
     }
 
     .contact:hover{
@@ -533,9 +533,9 @@
     }
 
     header {
-        border: 1px solid rgba(0, 150, 136, 1);
+        border: 0.06em solid rgba(0, 150, 136, 1);
         width: auto;
-        height: 100px;
+        height: 6.25em;
         text-align: center;
         background-color: rgba(0, 150, 136, 1);
         font-family: Calibri, serif;
@@ -543,26 +543,26 @@
 
     h1 {
         color: gold;
-        font-size: 50px;
+        font-size: 4em;
         font-weight: bold;
-        margin-top: 15px;
-        letter-spacing: -3px;
+        margin-top: 0.1em;
+        letter-spacing: -0.05em;
     }
 
     section {
-        margin-top: 30px;
+        margin-top: 1.87em;
         text-align: center;
-        font-size: 15px;
+        font-size: 0.93em;
         font-family: Calibri, serif;
         font-weight: bold;
-        height: 40px;
+        height: 2.5em;
     }
 
     aside {
         background-color: rgba(255, 205, 210, 0.5);
-        box-shadow: 0 0 5px gray;
-        width: 700px;
-        margin-bottom: 100px;
+        box-shadow: 0 0 0.31em gray;
+        width: 43.75em;
+        margin-bottom: 6.25em;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -572,27 +572,27 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 60px;
-        margin-top: 40px;
+        font-size: 3.75em;
+        margin-top: 1em;
     }
 
     aside > h2 {
         margin-top: 0;
-        font-size: 50px;
+        font-size: 3.12em;
         font-family: 'Devonshire', serif;
     }
 
     .undertitle {
         display: flex;
-        width: 550px;
+        width: 44.8em;
         justify-content: space-between;
-        margin-left: auto;
+        margin-left: -0.5em;
         margin-right: auto;
     }
 
     .undertitle > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -602,14 +602,14 @@
     }
 
     .undertitle > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 10em;
         margin: auto;
     }
 
     .undertitle1 {
         display: flex;
-        width: 550px;
+        width: 42em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -617,7 +617,7 @@
 
     .undertitle1 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -627,14 +627,14 @@
     }
 
     .undertitle1 > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 10em;
         margin: auto;
     }
 
     .undertitle1-2 {
         display: flex;
-        width: 550px;
+        width: 40em;
         justify-content: space-between;
         margin-left: auto;
         margin-right: auto;
@@ -642,7 +642,7 @@
 
     .undertitle1-2 > h3 {
         font-family: 'Kalam', serif;
-        background: linear-gradient(to top, black 0%,black 2px, transparent 2px) no-repeat;
+        background: linear-gradient(to top, black 0%,black 0.12em, transparent 0.12em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
     }
@@ -652,8 +652,8 @@
     }
 
     .undertitle1-2 > img {
-        height: 6px;
-        width: 200px;
+        height: 0.37em;
+        width: 10em;
         margin: auto;
     }
 
@@ -663,15 +663,15 @@
     }
 
     ul > li {
-        height: 40px;
+        height: 2.5em;
     }
 
     .entrance {
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.37em;
         padding-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -679,8 +679,8 @@
     .main-course {
         display: flex;
         justify-content: space-between;
-        width: 550px;
-        margin-bottom: 20px;
+        width: 34.37em;
+        margin-bottom: 1.25em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -688,7 +688,7 @@
     .dessert {
         display: flex;
         justify-content: space-between;
-        width: 550px;
+        width: 34.37em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -706,7 +706,7 @@
     }
 
     .end-page {
-        margin-bottom: 20px;
+        margin-bottom: 1.25em;
         display: flex;
     }
 
@@ -714,21 +714,21 @@
         background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 40px;
-        padding-top: 38px;
+        font-size: 2.5em;
+        padding-top: 1em;
         margin-left: auto;
-        margin-right: 5px;
+        margin-right: 0.31em;
     }
 
     .end-page > p {
         font-family: 'Devonshire', serif;
-        font-size: 35px;
+        font-size: 2.18em;
         margin-right: auto;
     }
 
     footer {
         border: 2px solid rgba(0, 150, 136, 1);
-        height: 53px;
+        height: 3.31em;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -741,9 +741,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-left: 0.62em;
     }
 
     .legal-notice:hover{
@@ -755,9 +755,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 25px;
-        margin-top: 10px;
-        margin-left: 10px;
+        font-size: 1.56em;
+        margin-top: 0.4em;
+        margin-right: 0.62em;
     }
 
     .contact:hover{
