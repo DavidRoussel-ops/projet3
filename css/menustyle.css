@@ -162,9 +162,9 @@
     .legal-notice {
         display: inline-block;
         color: gold;
-        font-size: 1.56em;
-        margin-top: 0.4em;
-        margin-left: 0.62em;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-left: 0.313em;
     }
 
     .legal-notice:hover{
@@ -176,9 +176,9 @@
     .contact {
         display: inline-block;
         color: gold;
-        font-size: 1.56em;
-        margin-top: 0.4em;
-        margin-right: 0.62em;
+        font-size: 1.25em;
+        margin-top: 0.813em;
+        margin-right: 0.313em;
     }
 
     .contact:hover{
