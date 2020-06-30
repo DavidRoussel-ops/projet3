@@ -105,7 +105,7 @@
 
     .undertitle > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 9em;
         margin: auto;
     }
 
@@ -130,7 +130,7 @@
 
     .undertitle1 > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 7.5em;
         margin: auto;
     }
 
@@ -155,7 +155,7 @@
 
     .undertitle1-2 > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 6.5em;
         margin: auto;
     }
 
@@ -165,7 +165,7 @@
     }
 
     ul > li {
-        height: 2.5em;
+        height: 3em;
     }
 
     .entrance {
@@ -174,8 +174,8 @@
         width: auto;
         padding-top: 0;
         margin-bottom: 1.25em;
-        margin-left: 0.62em;
-        margin-right: 0.62em;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .main-course {
@@ -183,16 +183,16 @@
         justify-content: space-between;
         width: auto;
         margin-bottom: 1.25em;
-        margin-left: 0.62em;
-        margin-right: 0.62em;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .dessert {
         display: flex;
         justify-content: space-between;
         width: auto;
-        margin-left: 0.62em;
-        margin-right: 0.62em;
+        margin-left: 3.125em;
+        margin-right: 3.125em;
     }
 
     .text {
@@ -229,7 +229,7 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
+        border: 0.125em solid rgba(0, 150, 136, 1);
         height: 3.31em;
         position: fixed;
         bottom: 0;
@@ -354,7 +354,7 @@
 
     .undertitle > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 10em;
         margin: auto;
     }
 
@@ -379,7 +379,7 @@
 
     .undertitle1 > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 10em;
         margin: auto;
     }
 
@@ -404,7 +404,7 @@
 
     .undertitle1-2 > img {
         height: 0.37em;
-        width: 12.5em;
+        width: 10em;
         margin: auto;
     }
 
@@ -478,7 +478,7 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
+        border: 0.125em solid rgba(0, 150, 136, 1);
         height: 3.31em;
         position: fixed;
         bottom: 0;
@@ -727,7 +727,7 @@
     }
 
     footer {
-        border: 2px solid rgba(0, 150, 136, 1);
+        border: 0.125em solid rgba(0, 150, 136, 1);
         height: 3.31em;
         position: fixed;
         bottom: 0;
