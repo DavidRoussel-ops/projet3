@@ -503,6 +503,8 @@
         background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
 
     .undertitle1:hover{
@@ -525,6 +527,8 @@
         background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
         background-size: 0 100%;
         transition: background-size .3s;
+        margin-left: -0.5em;
+        margin-right: -0.5em;
     }
 
     .undertitle3:hover{
