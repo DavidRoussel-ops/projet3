@@ -1,0 +1,494 @@
+@media screen and (max-width: 768px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside{
+    background-color: rgba(255, 235, 238, 0.5);
+    box-shadow: 0 0 0.313em gray;
+    width: auto;
+    padding-bottom: 6.25em;
+    margin-bottom: 6.25em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    text-align: center;
+  }
+
+  aside > h2{
+    background: -webkit-gradient(linear,left top,right bottom,from(rgba(211,84,0 ,1)),to(rgba(13,71,161 ,1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 3.125em;
+    font-family: 'Source serif', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle > img {
+    height: 0.438em;
+    width: 7em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > img {
+    height: 0.438em;
+    width: 8.5em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.438em;
+    width: 7.5em;
+    margin: auto;
+  }
+
+  .undertitle1-3{
+    font-family: 'Source serif', serif;
+    font-size: 0.938em;
+    color: rgba(211,84,0 ,1);
+    background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle1-3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2{
+    font-family: 'Source serif', serif;
+    font-size: 0.938em;
+    color: rgba(171,71,188 ,1);
+    background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3{
+    font-family: 'Source serif', serif;
+    font-size: 0.938em;
+    color: rgba(13,71,161 ,1);
+    background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 5em;
+  }
+
+  .entrance {
+    font-family: 'Source serif', serif;
+    color: rgba(211,84,0 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .main-course {
+    font-family: 'Source serif', serif;
+    color: rgba(171,71,188 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .dessert {
+    font-family: 'Source serif', serif;
+    color: rgba(13,71,161 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 990px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside {
+    background-color: rgba(255, 235, 238, 0.5);
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    padding-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear,left top,right bottom,from(rgba(211,84,0 ,1)),to(rgba(13,71,161 ,1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 3.125em;
+    font-family: 'Source serif', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 37.55em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 11em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: 38em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  .undertitle1-3{
+    font-family: 'Source serif', serif;
+    color: rgba(211,84,0 ,1);
+    background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle1-3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2{
+    font-family: 'Source serif', serif;
+    color: rgba(171,71,188 ,1);
+    background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3{
+    font-family: 'Source serif', serif;
+    color: rgba(13,71,161 ,1);
+    background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: 'Source serif', serif;
+    color: rgba(211,84,0 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: 'Source serif', serif;
+    color: rgba(171,71,188 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: 'Source serif', serif;
+    color: rgba(13,71,161 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 991px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside {
+    background-color: rgba(255, 235, 238, 0.5);
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    padding-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear,left top,right bottom,from(rgba(211,84,0 ,1)),to(rgba(13,71,161 ,1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 3.125em;
+    font-family: 'Source serif', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 37.55em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: 38em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  .undertitle1-3{
+    font-family: 'Source serif', serif;
+    color: rgba(211,84,0 ,1);
+    background: linear-gradient(to top, rgba(211,84,0,1) 0%,rgba(211,84,0,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle1-3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2{
+    font-family: 'Source serif', serif;
+    color: rgba(171,71,188 ,1);
+    background: linear-gradient(to top, rgba(171,71,188,1) 0%,rgba(171,71,188,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3{
+    font-family: 'Source serif', serif;
+    color: rgba(13,71,161 ,1);
+    background: linear-gradient(to top, rgba(13,71,161,1) 0%,rgba(13,71,161,1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: 'Source serif', serif;
+    color: rgba(211,84,0 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: 'Source serif', serif;
+    color: rgba(171,71,188 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: 'Source serif', serif;
+    color: rgba(13,71,161 ,1);
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,829 @@
+@font-face {
+  font-family: "Kalam";
+  src: url("Kalam/Kalam-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kaushan";
+  src: url("Kauchan/KaushanScript-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Devonshire";
+  src: url("Devon/Devonshire-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source serif";
+  src: url("Source/SourceSerifPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
+}
+header {
+  border: 0.06em solid #009688;
+  width: auto;
+  height: 6.25em;
+  text-align: center;
+  background-color: #009688;
+  font-family: Calibri, serif;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.25em;
+    margin-top: 0.813em;
+    margin-left: 0.313em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.25em;
+    margin-top: 0.813em;
+    margin-right: 0.313em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  header {
+    border: 0.06em solid #009688;
+    width: auto;
+    height: 6.25em;
+    text-align: center;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-left: 0.62em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-right: 0.62em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 991px) {
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  header {
+    border: 0.06em solid #009688;
+    width: auto;
+    height: 6.25em;
+    text-align: center;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-left: 0.62em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-right: 0.62em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@font-face {
+  font-family: "Devonshire";
+  src: url("Devon/Devonshire-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kalam";
+  src: url("Kalam/Kalam-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (max-width: 768px) {
+  section {
+    margin-top: 1.87em;
+    text-align: center;
+    font-size: 0.93em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside {
+    background-color: rgba(255, 205, 210, 0.5);
+    box-shadow: 0 0 0.31em gray;
+    width: auto;
+    margin-bottom: 6.25em;
+    margin-left: 0.62em;
+    margin-right: 0.62em;
+    text-align: center;
+  }
+
+  aside > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.75em;
+    margin-top: 1em;
+  }
+
+  aside > h2 {
+    margin-top: 0;
+    font-size: 3.12em;
+    font-family: "Devonshire", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.37em;
+    width: 9em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1 > img {
+    height: 0.37em;
+    width: 7.5em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1-2 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.37em;
+    width: 6.5em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 3em;
+  }
+
+  .entrance {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .main-course {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .dessert {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+
+  .end-page {
+    margin-bottom: 1.25em;
+    display: flex;
+  }
+
+  .end-page > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: 0.31em;
+  }
+
+  .end-page > p {
+    font-family: "Devonshire", serif;
+    font-size: 2.18em;
+    margin-right: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  section {
+    margin-top: 1.87em;
+    text-align: center;
+    font-size: 0.93em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside {
+    background-color: rgba(255, 205, 210, 0.5);
+    box-shadow: 0 0 0.31em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  aside > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.75em;
+    margin-top: 1em;
+  }
+
+  aside > h2 {
+    margin-top: 0;
+    font-size: 3.12em;
+    font-family: "Devonshire", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 40em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: 37em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1 > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: 34.37em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1-2 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    display: flex;
+    justify-content: space-between;
+    width: 34em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    display: flex;
+    justify-content: space-between;
+    width: 34em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    display: flex;
+    justify-content: space-between;
+    width: 34em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+
+  .end-page {
+    margin-bottom: 1.25em;
+    display: flex;
+  }
+
+  .end-page > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: 0.31em;
+  }
+
+  .end-page > p {
+    font-family: "Devonshire", serif;
+    font-size: 2.18em;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 991px) {
+  section {
+    margin-top: 1.87em;
+    text-align: center;
+    font-size: 0.93em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 2.5em;
+  }
+
+  aside {
+    background-color: rgba(255, 205, 210, 0.5);
+    box-shadow: 0 0 0.31em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  aside > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.75em;
+    margin-top: 1em;
+  }
+
+  aside > h2 {
+    margin-top: 0;
+    font-size: 3.12em;
+    font-family: "Devonshire", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 44.8em;
+    justify-content: space-between;
+    margin-left: -0.5em;
+    margin-right: auto;
+  }
+
+  .undertitle > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  .undertitle1 {
+    display: flex;
+    width: 42em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1 > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  .undertitle1-2 {
+    display: flex;
+    width: 40em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1-2 > h3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, black 0%, black 0.12em, transparent 0.12em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle1-2 > h3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle1-2 > img {
+    height: 0.37em;
+    width: 10em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    display: flex;
+    justify-content: space-between;
+    width: 34.37em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    display: flex;
+    justify-content: space-between;
+    width: 34.37em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    display: flex;
+    justify-content: space-between;
+    width: 34.37em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+
+  .end-page {
+    margin-bottom: 1.25em;
+    display: flex;
+  }
+
+  .end-page > i {
+    background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: 0.31em;
+  }
+
+  .end-page > p {
+    font-family: "Devonshire", serif;
+    font-size: 2.18em;
+    margin-right: auto;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */

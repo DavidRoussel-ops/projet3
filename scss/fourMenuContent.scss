@@ -1,0 +1,406 @@
+@media screen and (max-width: 768px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: auto;
+    margin-bottom: 6.25em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 3.75em;
+    font-weight: normal;
+    font-family: 'Kaushan', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1{
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .undertitle1:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: -0.1em;
+    margin-right: -0.1em;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.438em;
+    width: 5.625em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 5em;
+  }
+
+  .entrance {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .main-course {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .dessert {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 990px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 4.375em;
+    font-weight: normal;
+    font-family: 'Kaushan', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1{
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .undertitle1:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 10em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 991px){
+
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(rgba(104, 159, 56, 1)), to(rgba(192, 202, 51, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 4.375em;
+    font-weight: normal;
+    font-family: 'Kaushan', serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1{
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(104, 159, 56, 1) 0%,rgba(104, 159, 56, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .undertitle1:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(150, 169, 54, 1) 0%,rgba(150, 169, 54, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+  }
+
+  .undertitle2:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: 'Kalam', serif;
+    background: linear-gradient(to top, rgba(192, 202, 51, 1) 0%,rgba(192, 202, 51, 1) 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+
+  .undertitle3:hover{
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: 'Kalam', serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: 'Kalam', serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}

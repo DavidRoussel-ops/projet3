@@ -1,0 +1,684 @@
+@font-face {
+  font-family: "Kalam";
+  src: url("Kalam/Kalam-Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Kaushan";
+  src: url("Kauchan/KaushanScript-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Devonshire";
+  src: url("Devon/Devonshire-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Source serif";
+  src: url("Source/SourceSerifPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  10% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  20% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  40% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  50% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  70% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, 2px);
+  }
+  90% {
+    -webkit-transform: translate(-2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(2px, 2px);
+  }
+}
+header {
+  border: 0.06em solid #009688;
+  width: auto;
+  height: 6.25em;
+  text-align: center;
+  background-color: #009688;
+  font-family: Calibri, serif;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.25em;
+    margin-top: 0.813em;
+    margin-left: 0.313em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.25em;
+    margin-top: 0.813em;
+    margin-right: 0.313em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  header {
+    border: 0.06em solid #009688;
+    width: auto;
+    height: 6.25em;
+    text-align: center;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-left: 0.62em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-right: 0.62em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 991px) {
+  body {
+    margin: auto;
+    height: 100%;
+  }
+
+  .container {
+    width: auto;
+    height: auto;
+  }
+
+  header {
+    border: 0.06em solid #009688;
+    width: auto;
+    height: 6.25em;
+    text-align: center;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  h1 {
+    color: gold;
+    font-size: 4em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    letter-spacing: -0.05em;
+  }
+
+  footer {
+    border: 0.12em solid #009688;
+    height: 3.31em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    font-family: Calibri, serif;
+  }
+
+  .legal-notice {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-left: 0.62em;
+  }
+
+  .legal-notice:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  .contact {
+    display: inline-block;
+    color: gold;
+    font-size: 1.56em;
+    margin-top: 0.4em;
+    margin-right: 0.62em;
+  }
+
+  .contact:hover {
+    -webkit-animation-name: shake;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-iteration-count: infinite;
+  }
+
+  a {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: auto;
+    margin-bottom: 6.25em;
+    margin-left: 0.625em;
+    margin-right: 0.625em;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(#689f38), to(#c0ca33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 3.75em;
+    font-weight: normal;
+    font-family: "Kaushan", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #689f38 0%, #689f38 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .undertitle1:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #96a936 0%, #96a936 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+  }
+
+  .undertitle2:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #c0ca33 0%, #c0ca33 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: -0.1em;
+    margin-right: -0.1em;
+  }
+
+  .undertitle3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.438em;
+    width: 5.625em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 5em;
+  }
+
+  .entrance {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .main-course {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 1.25em;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .dessert {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 3.125em;
+    margin-right: 3.125em;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 990px) {
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(#689f38), to(#c0ca33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 4.375em;
+    font-weight: normal;
+    font-family: "Kaushan", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #689f38 0%, #689f38 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+  }
+
+  .undertitle1:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #96a936 0%, #96a936 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .undertitle2:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #c0ca33 0%, #c0ca33 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 10em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 991px) {
+  section {
+    margin-top: 1.875em;
+    text-align: center;
+    font-size: 0.938em;
+    font-family: Calibri, serif;
+    font-weight: bold;
+    height: 0.625em;
+  }
+
+  aside {
+    box-shadow: 0 0 0.313em gray;
+    width: 43.75em;
+    margin-bottom: 6.25em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 6.25em;
+    text-align: center;
+  }
+
+  aside > h2 {
+    background: -webkit-gradient(linear, left top, right bottom, from(#689f38), to(#c0ca33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 1.5em;
+    font-size: 4.375em;
+    font-weight: normal;
+    font-family: "Kaushan", serif;
+  }
+
+  .undertitle {
+    display: flex;
+    width: 40.625em;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .undertitle1 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #689f38 0%, #689f38 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+
+  .undertitle1:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle2 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #96a936 0%, #96a936 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+
+  .undertitle2:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle3 {
+    font-family: "Kalam", serif;
+    background: linear-gradient(to top, #c0ca33 0%, #c0ca33 0.125em, transparent 0.125em) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+
+  .undertitle3:hover {
+    background-size: 100% 100%;
+  }
+
+  .undertitle > img {
+    height: 0.625em;
+    width: 12.5em;
+    margin: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    font-family: "Kalam", serif;
+  }
+
+  ul > li {
+    height: 2.5em;
+  }
+
+  .entrance {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    padding-top: 0;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-course {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-bottom: 1.25em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dessert {
+    font-family: "Kalam", serif;
+    display: flex;
+    justify-content: space-between;
+    width: 34.375em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text {
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=style5.css.map */
