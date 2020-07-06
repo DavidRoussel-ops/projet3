@@ -15,34 +15,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
-  aside > p {
-    color: rgba(0, 150, 136, 1);
-    font-size: 1.25em;
-  }
-
-  input {
-    border-radius: 1.25em;
-    width: 15.625em;
-    border: 0.125em solid gold;
-    outline: none;
-    margin-bottom: 1.25em;
-  }
-
-  input:focus {
-    border: 0.125em solid rgba(0, 150, 136, 1);
-  }
-
-  input:not(:focus):invalid {
-    background: red;
-    border: 0.125em solid red;
-    color: white;
-  }
-
-  .clic {
-    width: 9.375em;
-    border: 0.125em solid black;
-  }
 }
 
 @media (min-width: 769px) and (max-width: 990px){
@@ -62,34 +34,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-
-  aside > p {
-    color: rgba(0, 150, 136, 1);
-    font-size: 1.25em;
-  }
-
-  input {
-    border-radius: 1.25em;
-    width: 15.625em;
-    border: 0.125em solid gold;
-    outline: none;
-    margin-bottom: 1.25em;
-  }
-
-  input:focus {
-    border: 0.125em solid rgba(0, 150, 136, 1);
-  }
-
-  input:not(:focus):invalid {
-    background: red;
-    border: 0.125em solid red;
-    color: white;
-  }
-
-  .clic {
-    width: 9.375em;
-    border: 0.125em solid black;
-  }
 }
 
 @media screen and (min-width: 991px){
@@ -108,33 +52,5 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  aside > p {
-    color: rgba(0, 150, 136, 1);
-    font-size: 1.25em;
-  }
-
-  input {
-    border-radius: 1.25em;
-    width: 15.625em;
-    border: 0.125em solid gold;
-    outline: none;
-    margin-bottom: 1.25em;
-  }
-
-  input:focus {
-    border: 0.125em solid rgba(0, 150, 136, 1);
-  }
-
-  input:not(:focus):invalid {
-    background: red;
-    border: 0.125em solid red;
-    color: white;
-  }
-
-  .clic {
-    width: 9.375em;
-    border: 0.125em solid black;
   }
 }
